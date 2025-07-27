@@ -1,13 +1,23 @@
-#This ignores .env and other secrets
-
-# Ignore secrets
+# Secrets
 api_keys.env
+.env
 
-# Ignore environment
-venv/
+# Bytecode + Caches
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Ignore audio
+# Virtual environments
+venv/
+
+# Distribution / Build
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Audio
 *.mp3
+
+# OS-specific
+.DS_Store
 
