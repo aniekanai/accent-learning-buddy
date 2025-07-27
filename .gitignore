@@ -1,0 +1,13 @@
+#This ignores .env and other secrets
+
+# Ignore secrets
+api_keys.env
+
+# Ignore environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore audio
+*.mp3
+
